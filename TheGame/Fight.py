@@ -240,23 +240,6 @@ def Fight():
             print("Are u dumb da dumb da dumb or r u Stoopid")
 
              
-    Ron = True
-    
-    while Ron:
-        
-        choice = input("> ") 
-    
-        if "pee" in choice: 
-            print("You look down because you felt your pants were wet.") 
-            print("You realized you peed yourself because you were so scared.") 
-            print("You scream to the ceiling that you vow to make the monster pay for what he made you do.") 
-            print("n,d,e") 
-            Ron = False    
-        else:
-            print("Are u dumb da dumb da dumb or r u Stoopid")
-
-        
-        
     
     Ron = True
         
