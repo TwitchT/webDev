@@ -8,13 +8,13 @@ def boss_room(item):
     axe = False
     stabbed = False
     
-    # ignis = True
-    # spear = True
-    # bomb = True
-    # spark = True
-    # sword = True
-    # glasses = True
-    # fire = True
+    ignis = True
+    spear = True
+    bomb = True
+    spark = True
+    sword = True
+    glasses = True
+    fire = True
  
     while Boss:
         choice = input("> ")
@@ -34,7 +34,7 @@ def boss_room(item):
             choice = input(">")
             
         elif "ignis" in choice and stabbed:
-            print(f"You throw the fire ball at the spot were the {item} had struck. The fire burns the monster's open wound, the monster screams in pain. The fire spreads though the monster's organs and...")
+            print("You throw the fire ball at the spot were the {item} had struck. The fire burns the monster's open wound, the monster screams in pain. The fire spreads though the monster's organs and...")
             print("The monster explodes into giant popcorn peices and is now dead.")
             print("Congrats you WIN. Sadly you cant get out. Now you are the boss of this room.")
             boss = False

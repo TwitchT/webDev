@@ -193,7 +193,7 @@ def Fight():
     while Ron:   
     
         choice = input("> ") 
-    
+     setup
         if "rise" in choice: 
             print("You rise out of the dead monsters split body.") 
             print("You look at it and say I told you, you were going to pay for that.") 
